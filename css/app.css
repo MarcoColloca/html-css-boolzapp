@@ -33,14 +33,71 @@ img{
 }
 
 
+
+/*\\ HEADER //*/
+
+
 .app__contact-sidebar{
     display: none;
 }
 
 
+
+
+
+
+
+/*\\ MAIN //*/
+
 .app__chat{
     flex-grow: 1;
 }
+
+
+
+
+/* App Chat Topbar */
+
+.app__chat__topbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.app__chat__topbar--img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+
+.app__chat__topbar--info{
+    flex-grow: 1;
+}
+
+
+.app__chat__topbar--interaction{
+    display: none;
+}
+
+
+
+/* App Chat Message Box */
+.app__chat__message--box{
+    height: 100%;
+    background-image: url(../img/mine.jpg);
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -59,11 +116,23 @@ img{
 
 @media (min-width:768px){
     
+    /* Side bar */
     .app__contact-sidebar{
         display: flex;
         width: 90px;
+        height: 100%;
         flex-shrink: 0;
         background-color: white;
+    }
+
+    /* Chat topbar */
+    .app__chat__topbar--interaction{
+        display: flex;
+        margin: 0 10px;
+    }
+
+    .app__chat__topbar--interaction li{
+        margin-left: 5px;
     }
 }
 
@@ -92,10 +161,13 @@ img{
     } */
 
 
+    /* Side bar */
     .app__contact-sidebar{
 
         width: 380px;
     }
+
+
 
 }
 
@@ -112,7 +184,7 @@ img{
 
 .debug .app-container{
     border: 1px solid red;
-    background-color: rgb(204, 192, 192);
+    /* background-color: rgb(204, 192, 192); */
 }
 
 
@@ -133,3 +205,7 @@ img{
     background-color: rgb(58, 85, 58);
 }
 
+
+.app__chat__message--box{
+    border: 1px white solid;
+}

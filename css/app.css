@@ -56,7 +56,7 @@ body{
 /*\\ HEADER //*/
 
 
-.app__contact-sidebar{
+.app__sidebar{
     display: none;
 }
 
@@ -162,7 +162,7 @@ body{
 @media (min-width:768px){
     
     /* Side bar */
-    .app__contact-sidebar{
+    .app__sidebar{
         display: flex;
         width: 90px;
         height: 100%;
@@ -223,7 +223,7 @@ body{
 
 
     /* Side bar */
-    .app__contact-sidebar{
+    .app__sidebar{
 
         width: 380px;
     }
@@ -250,7 +250,7 @@ body{
 
 
 
-.debug .app__contact-sidebar{
+.debug .app__sidebar{
 
     border: 2px dashed rgb(0, 4, 255);
 }

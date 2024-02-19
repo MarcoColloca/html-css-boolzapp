@@ -215,7 +215,6 @@ body{
 
     .app__sidebar__contacts__card{
         margin-top: 10px;
-        margin-bottom: 20px;
     }
 
     .app__sidebar__contacts__card__img{
@@ -378,9 +377,8 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        width: 100%;
         padding: 10px;
-        margin: 5px;
+        margin: 1px 10px 1px 0;
         background-color: white;
     }
 
@@ -388,6 +386,7 @@ body{
         display: inline-block;
         flex-grow: 1;
         padding-top: 5px;
+        font-size: 18px;
     }
 
     .app__sidebar__contacts__card__name__nickname{

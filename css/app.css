@@ -367,11 +367,13 @@ body{
 .debug .app__sidebar{
 
     border: 2px dashed rgb(0, 4, 255);
+    /* background-color: violet; */
 }
 
 
 .debug .app__chat{
     border: 2px dashed rgb(0, 255, 42);
+    /* background-color: pink; */
 }
 
 

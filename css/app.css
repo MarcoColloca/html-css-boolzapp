@@ -269,6 +269,7 @@ body{
     .app__sidebar{
 
         width: 380px;
+        background-color: #EAEAEA;
     }
 
 
@@ -326,6 +327,22 @@ body{
     .app__sidebar__notifications__text--link{
         color: rgb(94, 94, 94);
         text-decoration: underline;
+    }
+
+
+    /* App Sidebar Searchbar */
+    .app__sidebar__searchbar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .app__sidebar__searchbar__text-box{
+        flex-grow: 1;
+        padding: 5px;
+        color: rgb(53, 53, 53);
+        border: none;
     }
 }
 

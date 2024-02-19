@@ -154,7 +154,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
     color: rgb(167, 167, 167);
 }
 
@@ -292,6 +291,7 @@ body{
     .app__chat__message--box .app__chat__message--box__text--right,
     .app__chat__message--box .app__chat__message--box__text--left{
         max-width: 480px;
+        min-height: 130px;
     }
 
 

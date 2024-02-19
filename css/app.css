@@ -209,8 +209,21 @@ body{
 
     /* App Side bar Contacts */
 
+    .app__sidebar__contacts__card__img{
+        width: 55px;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        padding: 5px;
+        margin: 0 10px;
+    }
 
+    .app__sidebar__contacts__card__name{
+        display: none;
+    }
 
+    .app__sidebar__contacts__card__time{
+        display: none;
+    }
 
     /* App Chat topbar */
     .app__chat__topbar--interaction{
@@ -344,6 +357,45 @@ body{
         color: rgb(53, 53, 53);
         border: none;
     }
+
+    
+    /* App Sidebar Contacts */
+
+    .app__sidebar__contacts{
+        width: 100%;
+    }
+
+    .app__sidebar__contacts__card{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        background-color: white;
+    }
+
+    .app__sidebar__contacts__card__name{
+        display: inline-block;
+        flex-grow: 1;
+        padding-top: 5px;
+    }
+
+    .app__sidebar__contacts__card__name__nickname{
+        font-weight: bold;
+    }
+    
+    .app__sidebar__contacts__card__name__info{
+        color: rgb(185, 185, 185);
+    }
+
+    .app__sidebar__contacts__card__time{
+        display: inline-block;
+        padding-top: 5px;
+        color: rgb(185, 185, 185);
+    }
+
+    
 }
 
 

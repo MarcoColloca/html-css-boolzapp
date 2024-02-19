@@ -211,6 +211,7 @@ body{
 
     .app__sidebar__contacts{
         overflow: scroll;
+        flex-grow: 1;
     }
 
     .app__sidebar__contacts__card{

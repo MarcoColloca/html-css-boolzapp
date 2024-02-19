@@ -162,6 +162,7 @@ body{
     /*\ App Side bar */
     .app__sidebar{
         display: flex;
+        flex-direction: column;
         width: 90px;
         height: 100%;
         flex-shrink: 0;
@@ -176,10 +177,8 @@ body{
         padding: 5px;
         margin: 0 10px;
     }
+       
     
-    .app__sidebar__topbar--interaction{
-        display: none;
-    }
     
     /* App Side bar Topbar */
     .app__sidebar__topbar{
@@ -190,7 +189,25 @@ body{
         padding: 15px 0;
         width: 100%;
     }
+    
+    
+    .app__sidebar__topbar--interaction{
+        display: none;
+    }
 
+
+    /* App Side bar Notifications */
+    .app__sidebar__notifications{
+        display: none;
+    }
+
+    /* App Side bar Searchbar */
+    .app__sidebar__searchbar{
+        display: none;
+    }
+
+
+    /* App Side bar Contacts */
 
 
 
@@ -248,12 +265,14 @@ body{
     } */
 
 
-    /* App Side bar */
+    /*\ App Side bar */
     .app__sidebar{
 
         width: 380px;
     }
 
+
+    /* App Side bar Topbar */
     .app__sidebar__topbar{
         justify-content: space-between;
     }
@@ -273,6 +292,41 @@ body{
         padding: 10px;
     }
 
+
+    /* App Side bar Notifications */
+    .app__sidebar__notifications{
+        display: flex;
+        padding: 20px 10px;
+        background-color: #8EDAFC;
+        width: 100%;
+    }
+
+    .app__sidebar__notifications__icon{
+        font-size: 20px;
+        background-color: white;
+        color: #8EDAFC;
+        border-radius: 50%;
+        margin-right: 15px;
+        height: 120%;
+        aspect-ratio: 1/1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .app__sidebar__notifications__text{
+        flex-grow: 1;
+    }
+
+    .app__sidebar__notifications__text--intro{
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .app__sidebar__notifications__text--link{
+        color: rgb(94, 94, 94);
+        text-decoration: underline;
+    }
 }
 
 

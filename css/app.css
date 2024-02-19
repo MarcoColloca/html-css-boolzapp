@@ -65,7 +65,6 @@ body{
 
 
 
-
 /*\\ MAIN //*/
 
 .app__chat{
@@ -87,9 +86,8 @@ body{
     padding: 15px 0;
 }
 
-
 .app__chat__topbar--img{
-    width: 50px;
+    width: 55px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     padding: 5px;
@@ -161,16 +159,43 @@ body{
 
 @media (min-width:768px){
     
-    /* Side bar */
+    /*\ App Side bar */
     .app__sidebar{
         display: flex;
         width: 90px;
         height: 100%;
         flex-shrink: 0;
         background-color: white;
+        align-items: flex-start;
     }
 
-    /* Chat topbar */
+    .app__sidebar--img{
+        width: 55px;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        padding: 5px;
+        margin: 0 10px;
+    }
+    
+    .app__sidebar__topbar--interaction{
+        display: none;
+    }
+    
+    /* App Side bar Topbar */
+    .app__sidebar__topbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #EAEAEA;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+
+
+
+
+    /* App Chat topbar */
     .app__chat__topbar--interaction{
         display: flex;
         margin: 0 10px;
@@ -207,6 +232,7 @@ body{
 
 @media (min-width:992px){
 
+    /*\ App */
     #app{
         display: flex;
         align-items: center;
@@ -222,13 +248,30 @@ body{
     } */
 
 
-    /* Side bar */
+    /* App Side bar */
     .app__sidebar{
 
         width: 380px;
     }
 
+    .app__sidebar__topbar{
+        justify-content: space-between;
+    }
 
+    .app__sidebar__topbar--interaction{
+        display: flex;
+        margin: 0 10px;
+    }
+
+    .app__sidebar__topbar--interaction li{
+        margin-left: 5px;        
+    }
+
+    .app__sidebar__topbar--interaction i{
+        font-size: 1.8rem;
+        color: rgb(163, 163, 163);
+        padding: 10px;
+    }
 
 }
 

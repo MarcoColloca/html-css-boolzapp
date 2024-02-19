@@ -209,6 +209,15 @@ body{
 
     /* App Side bar Contacts */
 
+    .app__sidebar__contacts{
+        overflow: scroll;
+    }
+
+    .app__sidebar__contacts__card{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
     .app__sidebar__contacts__card__img{
         width: 55px;
         aspect-ratio: 1/1;

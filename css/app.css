@@ -322,17 +322,9 @@ body{
         align-items: center;
         justify-content: center;
         padding: 50px 200px;
-        background-color: #DBDBD3;
+        background: linear-gradient(to bottom, #4d9288 15%, #dcdcd4 10%);
     }
 
-    #green-line{
-        height: 220px;
-        width: 100%;
-        background-color: #039789;
-        position: absolute;
-        top: 0;
-        z-index: 1;
-    }
 
     .app-container{
        z-index: 99;

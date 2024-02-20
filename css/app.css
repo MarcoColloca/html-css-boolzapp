@@ -292,11 +292,14 @@ body{
     /* App Side bar Contacts */
 
     .app__sidebar__contacts{
-        /* Unico modo trovat per risolvere la scrollbar orizzontale su Google Chrome */
-        overflow: hidden;
         overflow-y: scroll;
         flex-grow: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
 
     .app__sidebar__contacts__card{
         margin-top: 10px;
@@ -312,7 +315,6 @@ body{
         aspect-ratio: 1/1;
         border-radius: 50%;
         padding: 5px;
-        margin: 0 15px;
     }
 
     .app__sidebar__contacts__card__name{

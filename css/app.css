@@ -428,16 +428,23 @@ body{
         display: flex;
         width: 100%;
         align-items: center;
+        justify-content: space-evenly;
         padding: 10px;
     }
 
     .app__sidebar__searchbar__text-box{
         flex-grow: 1;
-        padding: 5px;
+        padding: 15px 5px;
         color: rgb(53, 53, 53);
         border: none;
+        text-align: center;
+        margin-left: -25px;    
     }
 
+    .app__sidebar__searchbar__icon{
+        z-index: 99;
+        color: rgb(163, 163, 163);
+    }
     
     /* App Sidebar Contacts */
 
@@ -487,7 +494,13 @@ body{
         max-width: 620px;
     }
 
-    
+    .app__chat__message--box .app__chat__message--box__text--right{
+        margin-right: 130px;
+    }
+
+    .app__chat__message--box .app__chat__message--box__text--left{
+        margin-left: 130px;
+    }
 
 }
 

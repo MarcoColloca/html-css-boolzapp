@@ -135,6 +135,7 @@ body{
     max-width: 347px;
     border-radius: 18px;
     display: flex;
+    font-size: 18px;
 }
 
 
@@ -147,14 +148,16 @@ body{
 .app__chat__message--box__text--left{
     background-color: #FFFFFF;
     margin-left: 30px;
-    
 }
 
 .app__chat__message--box__text__time{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color: rgb(167, 167, 167);
+}
+
+.app__chat__message--box__text__time > p{
+    margin-top: auto;
 }
 
 .chat-menu-content{

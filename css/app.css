@@ -215,8 +215,8 @@ body{
        
     
     
-    /* App Side bar Topbar */
-    .app__sidebar__topbar{
+    /* App Side bar Userbar */
+    .app__sidebar__userbar{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -226,7 +226,7 @@ body{
     }
     
     
-    .app__sidebar__topbar--interaction{
+    .app__sidebar__userbar--interaction{
         display: none;
     }
 
@@ -318,16 +318,14 @@ body{
 
     /*\ App */
     #app{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 50px 200px;
+        padding: 36px 0;
         background: linear-gradient(to bottom, #4d9288 15%, #dcdcd4 10%);
     }
 
 
     .app-container{
-       z-index: 99;
+       width: 80%;
+       margin: 0 auto;
     } 
 
 
@@ -339,21 +337,21 @@ body{
     }
 
 
-    /* App Side bar Topbar */
-    .app__sidebar__topbar{
+    /* App Side bar Userbar */
+    .app__sidebar__userbar{
         justify-content: space-between;
     }
 
-    .app__sidebar__topbar--interaction{
+    .app__sidebar__userbar--interaction{
         display: flex;
         margin: 0 10px;
     }
 
-    .app__sidebar__topbar--interaction li{
+    .app__sidebar__userbar--interaction li{
         margin-left: 5px;        
     }
 
-    .app__sidebar__topbar--interaction i{
+    .app__sidebar__userbar--interaction i{
         font-size: 1.8rem;
         color: rgb(163, 163, 163);
         padding: 10px;

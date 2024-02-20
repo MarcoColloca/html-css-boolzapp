@@ -175,6 +175,10 @@ body{
     margin-top: 0;
 }
 
+.chat-menu-content a:hover{
+    color: black;
+}
+
 
 /* App Chat message input */
 

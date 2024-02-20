@@ -197,7 +197,7 @@ body{
     padding: 15px;
 }
 
-.app__chat__message--input > i{
+.app__chat__message--input > a{
     display: none;
 }
 
@@ -326,7 +326,7 @@ body{
 
 
     /* App Chat message input */
-    .app__chat__message--input > i{
+    .app__chat__message--input > a{
         display: inline-block;
         padding: 0 20px;
         font-size: 1.8rem;

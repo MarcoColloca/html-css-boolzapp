@@ -157,6 +157,23 @@ body{
     color: rgb(167, 167, 167);
 }
 
+.chat-menu-content{
+    display: none;
+}
+
+
+
+.chat-menu:hover + .chat-menu-content{
+    display: block;
+    margin: 5px;
+    margin-top: 0;
+}
+
+.chat-menu-content:hover{
+    display: block;
+    margin: 5px;
+    margin-top: 0;
+}
 
 
 /* App Chat message input */

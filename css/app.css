@@ -32,6 +32,9 @@ img{
     display: flex;
 }
 
+*:focus::placeholder{
+    color: transparent;
+}
 
 
 
@@ -329,6 +332,10 @@ body{
         color: rgb(255, 0, 0);
     }
 
+    .app__sidebar__contacts__card:active{
+        background-color:#d5fabaa2;
+    }
+
     .app__sidebar__contacts__card__img{
         width: 55px;
         aspect-ratio: 1/1;
@@ -499,7 +506,7 @@ body{
         pointer-events: none;
     }
     
-    /* App Sidebar Contacts */
+        /* App Sidebar Contacts */
 
     .app__sidebar__contacts{
         width: 100%;

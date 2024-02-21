@@ -233,6 +233,9 @@ body{
     border-radius: 3px;
 }
 
+.chat--emoticons__tab{
+    display: none;
+}
 
 
 

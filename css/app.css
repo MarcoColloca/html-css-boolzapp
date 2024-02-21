@@ -452,7 +452,7 @@ body{
         color: #8EDAFC;
         border-radius: 50%;
         margin-right: 15px;
-        height: 120%;
+        width: 50px;
         aspect-ratio: 1/1;
         display: flex;
         align-items: center;
@@ -501,6 +501,7 @@ body{
 
     .app__sidebar__contacts{
         width: 100%;
+        align-items: stretch;
     }
 
     .app__sidebar__contacts__card{

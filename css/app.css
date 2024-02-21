@@ -233,19 +233,7 @@ body{
     border-radius: 3px;
 }
 
-.app__chat__message--input .fa-face-smile:hover{
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px;
-}
 
-.app__chat__message--input .fa-face-smile:active{
-    color: rgb(255, 196, 0);
-}
-
-
-.app__chat__message--input .fa-microphone:hover{
-    color: rgb(107, 0, 0);
-}
 
 
 
@@ -390,6 +378,64 @@ body{
         padding: 0 20px;
         font-size: 1.8rem;
         color: rgb(53, 53, 53);
+    }
+
+    
+    .chat--microphone:hover{
+        color: rgb(107, 0, 0);
+    }
+
+
+    .chat--emoticons__tab{
+        position: absolute;
+        background-color: #EAEAEA;
+        transform: translateY(-81px);
+        display: none;
+    }
+
+
+    .chat--emoticons__tab i{
+        font-size: 32px;
+        aspect-ratio: 1/1;
+        color: rgb(53, 53, 53);
+    }
+
+
+    .chat--emoticons:visited + .chat--emoticons__tab{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .chat--emoticons:focus + .chat--emoticons__tab{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .chat--emoticons:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px;
+        cursor: pointer;
+    }
+
+
+
+    .chat--emoticons:active{
+        color: rgb(255, 196, 0);
+    }
+
+    .chat--emoticons:active + .chat--emoticons__tab{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .chat--emoticons__tab:hover{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
 }
